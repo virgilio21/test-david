@@ -1,0 +1,34 @@
+
+DESARROLLO FRONTEND
+
+====================================================
+ICONOS PARA LA MAQUETACION:
+
+
+TELEFONO:  <i class="fa fa-phone-square fa-2x" ></i>
+
+RELOJ:  <i class="far fa-clock  fa-2x" ></i>
+
+LIBRO: <i class="fa fa-book fa-2x" ></i>
+
+GENTE: <i class="fa fa-users fa-2x" ></i>
+
+MANITA ARRIBA: <i class="far fa-thumbs-up fa-2x" ></i>
+
+FLECHA ARRIBA:  <i class="fa fa-arrow-circle-up fa-2x" ></i>
+
+
+=====================================================
+
+TIPOGRAFIA:
+
+<link href="https://fonts.googleapis.com/css?family=Abel|Oswald" rel="stylesheet">
+
+
+TIPOGRAFIA GRUESA: font-family: 'Oswald', sans-serif;
+TIPOGRAFIA DELGADA: font-family: 'Abel', sans-serif;
+
+=====================================================
+
+
+EXITO EN SU EXAMEN

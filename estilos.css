@@ -1,0 +1,455 @@
+*, *::before, *::after{
+
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+p{
+    margin: 0;
+}
+
+header{
+    
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+}
+
+.naranja{
+    color:#be6802;
+}
+header > *{
+    width: 40%;
+}
+div.complementos > *{
+    width: 50%;
+}
+div.complementos{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div.contenedor-derecho{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+nav{
+    max-width: 1200px;
+    margin: auto;
+}
+li{
+    list-style: none;
+}
+
+hr{
+    color:#c3c3c3;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    padding: 10px;
+    
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+figure{
+    padding: 0;
+    margin:0;
+    position: relative;
+}
+img{
+    width: 100%;
+    transition: all 1s;
+}
+
+img.zoom:hover{
+
+    transform: scale(1.5);
+}
+
+figure.zoom2{
+    overflow: hidden;
+}
+a.tipo1{
+    padding: 10px;
+    color: white;
+    background-color: #3198e2;
+}
+
+div.contenido-foto{
+
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.mas-grande{
+    font-size: 2em;
+}
+
+div.contenido-foto a{
+
+    width: 40%;
+    text-align: center;
+}
+hr.naranja{
+    border: 5px solid #be6802;
+    margin: 0;
+}
+.sombra-texto{
+    text-shadow: 0px 3px 2px black;
+}
+
+h3{
+    margin:0;
+    padding: 0;
+}
+
+
+section.bienvenido{
+
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+section.bienvenido > *{
+    margin-top: 30px;
+    width: 43%;
+}
+
+.azul{
+    color:#3198e2;
+}
+.gris{
+    color: #373838;
+    margin-bottom: 20px;
+}
+p#especial{
+    margin-top: 50px;
+}
+
+.centro-text{
+    text-align: center;
+}
+
+.blanco{
+    color: white;
+}
+
+section.unico{
+    background-color: #3198e2;
+    width: 100%;
+    padding: 10px;
+}
+
+.margenes{
+    margin: 20px;
+}
+
+i.especiales{
+
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 25px;
+    transition: all 2s;
+
+}
+
+i.especiales:hover{
+
+    transform: rotateY(360deg);
+}
+
+div.contenedor-porque{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+div.contenedor-porque > *{
+
+    width: 20%;
+}
+
+section.nuestros-servi{
+
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.contenedor-servi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+div.unidad-servi{
+    width: 20%;
+}
+
+div.unidad-servi h3{
+    width: 90%;
+}
+
+section.casos-exito{
+    background: #f7f7f7;
+    margin-top: 20px; 
+}
+
+section.casos-exito h1{
+    padding-top: 20px;
+}
+
+
+div.contenedor-exito{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+div.unidad-exito{
+    width: 450px;
+    border: 1px solid black;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+figure.exito{
+
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+}
+img.exito2{
+    border-radius: 50%; 
+}
+
+div.unidad-exito p{
+    margin-bottom: 2px;
+}
+a.tipo2{
+    color: white;
+    background: #be6802;
+    padding: 10px 30px;
+}
+
+div.contenedor-ayuda{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+
+
+div.unidad-exito a{
+    width: 30%;
+    position: absolute;
+    left: 75%;
+    top: 90%;
+
+}
+a.tipo3{
+    background-color: white;
+    padding: 10px;
+    color:#3198e2;
+}
+
+section.ayuda{
+    background-color: #3198e2;
+    margin-top: 20px; 
+}
+
+div.unidad1{
+    width: 70%;
+}
+div.unidad2{
+    width: 20%;
+}
+
+section.noticias{
+    margin-top: 20px;
+}
+
+div.contenedor-noticias{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.unidad-noticias{
+    width: 25%;
+}
+
+section.fin{
+    background-color: #373838;
+
+}
+section.fin div{
+
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+img.efecto-gris{
+
+    transition: all 1s;
+
+}
+
+img.efecto-gris:hover{
+
+    filter: grayscale(90%);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 414px){
+
+    body{
+        width: 414px;
+    } 
+    header > *{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    div#solo{
+        display: none;
+    }
+    hr{
+        width: 100%;
+    }
+    ul{
+
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    section.pp{
+        display: none;
+    }
+    
+    div.izquierda-foto{
+
+        display: none;
+    }
+
+    div.parte-derecha{
+        width: 90%;
+    }
+
+    div.titulo h1{
+        text-align: center;
+    }
+    div.parte-derecha h3.azul{
+
+        text-align: center;
+    }
+
+    div.contenedor-porque{
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    div.unidad-porque{
+        width: 90%;
+    }
+
+    section.nuestros-servi{
+        display: none;
+    }
+
+    section.casos-exito{
+        display: none;
+    }
+
+    section.ayuda{
+        display: none;
+    }
+
+    div.contenedor-noticias{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    div.unidad-noticias{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}
